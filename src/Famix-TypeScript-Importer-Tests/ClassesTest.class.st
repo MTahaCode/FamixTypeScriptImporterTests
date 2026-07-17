@@ -10,7 +10,7 @@ Class {
 
 { #category : 'running' }
 ClassesTest >> setUp [ 
-	| file |
+	| file modelPath |
 	super setUp.
 	
     modelPath := OSEnvironment current 
