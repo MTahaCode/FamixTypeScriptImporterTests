@@ -13,11 +13,11 @@ ClassesTest >> setUp [
 	| file |
 	super setUp.
 	
-    envPath := OSEnvironment current 
+    modelPath := OSEnvironment current 
         at: 'MODEL_JSON_PATH' 
         ifAbsent: [ nil ].
 
-    file := envPath.
+    file := modelPath asFileReference.
 	
 	self assert: file exists description: 'The Json file is missing'.
 	
