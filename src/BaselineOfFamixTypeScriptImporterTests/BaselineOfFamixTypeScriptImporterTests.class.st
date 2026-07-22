@@ -21,7 +21,7 @@ BaselineOfFamixTypeScriptImporterTests >> defineDependencies: spec [
     spec
         baseline: 'FamixTypeScript'
         with: [ spec
-            repository: 'github://fuhrmanator/FamixTypeScript:master/src' ].
+            repository: 'github://MTahaCode/FamixTypeScript:missing-model-properties/src' ].
 ]
 
 { #category : 'groups' }
